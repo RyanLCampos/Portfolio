@@ -3,6 +3,8 @@ import { motion } from "framer-motion";
 
 import { useState } from "react";
 
+import logo from '../assets/LogoNova.png'
+
 const projects = [
     {
         title: "Vault Finance",
@@ -53,7 +55,7 @@ export default function Projetos() {
                     >
                         <div className="relative h-48 w-full overflow-hidden">
                             <img
-                                src={project.image || "/img/LogoNova.png"}
+                                src={project.image || logo}
                                 alt={project.title}
                                 className="h-full w-full object-contain transition-transform duration-500 hover:scale-105"
                             />

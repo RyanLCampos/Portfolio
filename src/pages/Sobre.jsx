@@ -1,5 +1,6 @@
 // eslint-disable-next-line no-unused-vars
 import { motion } from "framer-motion";
+import perfil from "../assets/Perfil.JPG"
 
 const textBold = "bg-gradient-to-r from-[#0b0799] to-[#0d98c2] bg-clip-text text-transparent"
 
@@ -24,6 +25,8 @@ export function CardSobre() {
     >
       <div
         className="
+          hidden
+          lg:block
           absolute -inset-4
           rounded-3xl
           bg-white
@@ -115,7 +118,7 @@ export default function Sobre() {
         <CardSobre />
 
         <motion.img
-          src="/img/Perfil.JPG"
+          src={perfil}
           alt="Foto de perfil"
           initial={{ opacity: 0, x: 60 }}
           whileInView={{ opacity: 1, x: 0 }}

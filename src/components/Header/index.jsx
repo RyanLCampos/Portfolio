@@ -1,4 +1,6 @@
 import { useEffect, useState } from "react"
+import logo from "../../assets/LogoNova.png"
+
 
 export function Header() {
   const [menuOpen, setMenuOpen] = useState(false)
@@ -54,9 +56,9 @@ export function Header() {
       <nav className="flex lg:w-[75%] w-[85%] mx-auto flex-col lg:flex-row lg:items-center lg:justify-between">
         <div className="flex justify-between items-center">
           <img
-            src="/img/LogoNova.png"
+            src={logo}
             alt="Logo"
-            className="lg:h-[74px] h-[65px] lg:h-full"
+            className="lg:h-[70px] h-[65px] lg:h-full"
           />
 
           <div className="flex items-center gap-6 lg:hidden">
