@@ -1,6 +1,6 @@
 // eslint-disable-next-line no-unused-vars
 import { motion } from "framer-motion";
-import { FaGithub, FaLinkedin, FaEnvelope, FaMapMarkerAlt } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaEnvelope, FaMapMarkerAlt, FaPhoneAlt } from "react-icons/fa";
 
 const contacts = [
     {
@@ -60,37 +60,47 @@ export default function Contato() {
                         transition={{ duration: 0.4, delay: index * 0.1 }}
                         className="flex items-center gap-4 group"
                     >
-                        <item.icon
-                            className="text-[26px] text-[#0b0799]
-          transition-transform duration-300
-          group-hover:scale-110"
-                        />
+                        <item.icon className="text-[26px] text-[#0b0799] transition-transform duration-300 group-hover:scale-110" />
 
                         <div className="flex flex-col">
-                            <span className="font-semibold text-primaryDark">
-                                {item.label}
-                            </span>
-
-                            <span
-                                className="text-sm opacity-80
-            transition-colors duration-300
-            group-hover:text-[#0d98c2]"
-                            >
+                            <span className="font-semibold text-primaryDark">{item.label}</span>
+                            <span className="text-sm opacity-80 group-hover:text-[#0d98c2] transition-colors">
                                 {item.value}
                             </span>
                         </div>
                     </motion.a>
                 ))}
+
+                <motion.a
+                    href="tel:+5543996499386"
+                    initial={{ opacity: 0, y: 20 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    viewport={{ once: false, amount: 0.3 }}
+                    transition={{ duration: 0.4, delay: 0.5 }}
+                    className="
+                    flex items-center gap-4 group
+                    md:col-span-2 md:justify-start
+                    "
+                >
+                    <FaPhoneAlt className="text-[26px] text-[#0b0799] transition-transform duration-300 group-hover:scale-110" />
+
+                    <div className="flex flex-col">
+                        <span className="font-semibold text-primaryDark">Telefone</span>
+                        <span className="text-sm opacity-80 group-hover:text-[#0d98c2] transition-colors">
+                            +55 (43) 99649-9386
+                        </span>
+                    </div>
+                </motion.a>
             </div>
 
 
             <motion.p
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            transition={{ delay: 0.5 }}
-            className="mt-16 text-center max-w-xl text-primaryDark opacity-80"
+                initial={{ opacity: 0 }}
+                whileInView={{ opacity: 1 }}
+                transition={{ delay: 0.5 }}
+                className="mt-16 text-center max-w-xl text-primaryDark opacity-80"
             >
-            Aberto a oportunidades, freelas e colaborações. Fique à vontade para entrar em contato{" "}
+                Aberto a oportunidades, freelas e colaborações. Fique à vontade para entrar em contato{" "}
             </motion.p>
         </section>
     );
