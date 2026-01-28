@@ -72,11 +72,11 @@ More details: https://www.material-tailwind.com/docs/react/collapse
           text-primaryDark\r
           shadow-xl\r
         `,children:ke.jsxs("p",{className:`\r
-            text-[15px] md:text-[17px] lg:text-[20px]\r
-            leading-[1.55] md:leading-relaxed\r
-            opacity-90\r
-            space-y-2 md:space-y-4\r
-          `,children:[ke.jsxs("span",{className:"block",children:["Meu nome é ",ke.jsx("b",{className:Ec,children:"Ryan Lucas"}),", sou formado em ",ke.jsx("b",{className:Ec,children:"Ciência da Computação"})," e tenho ",ke.jsx("b",{className:Ec,children:"background em Java"}),", com foco em desenvolvimento back-end. Atualmente, estou realizando pós-graduação em Java."]}),ke.jsxs("span",{className:"block",children:["Ao mesmo tempo, ",ke.jsx("b",{className:Ec,children:"meu foco atual de carreira é Front-end / Fullstack"}),", estudando e desenvolvendo projetos com ",ke.jsx("b",{className:Ec,children:"JavaScript, React e Tailwind CSS"}),". Durante a faculdade, cursos e projetos pessoais, tive a oportunidade de aplicar esses conhecimentos na prática, construindo algumas aplicações."]}),ke.jsx("span",{className:"block",children:"Sou apaixonado por tecnologia e busco oportunidades para evoluir como desenvolvedor e contribuir em projetos reais."})]})})]})}function J7(){return ke.jsxs("section",{id:"sobre",className:`\r
+    text-[15px] md:text-[17px] lg:text-[20px]\r
+    leading-[1.55] md:leading-relaxed\r
+    opacity-90\r
+    space-y-2 md:space-y-4\r
+  `,children:[ke.jsxs("span",{className:"block",children:["Sou formado em ",ke.jsx("b",{className:Ec,children:"Ciência da Computação"}),", com ",ke.jsx("b",{className:Ec,children:"background em Java"})," e foco em desenvolvimento back-end. Atualmente, curso ",ke.jsx("b",{className:Ec,children:"pós-graduação em Java"}),"."]}),ke.jsxs("span",{className:"block",children:["Venho direcionando meu foco para ",ke.jsx("b",{className:Ec,children:"Front-end e Fullstack"}),", desenvolvendo projetos com",ke.jsx("b",{className:Ec,children:" JavaScript, React e Tailwind CSS"}),"."]}),ke.jsx("span",{className:"block",children:"Sou apaixonado por tecnologia e busco oportunidades para evoluir como desenvolvedor e contribuir em projetos reais."})]})})]})}function J7(){return ke.jsxs("section",{id:"sobre",className:`\r
         min-h-screen\r
         flex flex-col\r
         items-center\r
