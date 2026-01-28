@@ -58,6 +58,8 @@ More details: https://www.material-tailwind.com/docs/react/collapse
         lg:order-1\r
         w-full md:max-w-[80%] lg:max-w-[40%]\r
       `,children:[Re.jsx("div",{className:`\r
+          hidden\r
+          lg:block\r
           absolute -inset-4\r
           rounded-3xl\r
           bg-white\r
