@@ -47,18 +47,20 @@ export function CardSobre() {
       >
         <p
           className="
-            text-[15px] md:text-[17px] lg:text-[20px]
-            leading-[1.55] md:leading-relaxed
-            opacity-90
-            space-y-2 md:space-y-4
-          "
+    text-[15px] md:text-[17px] lg:text-[20px]
+    leading-[1.55] md:leading-relaxed
+    opacity-90
+    space-y-2 md:space-y-4
+  "
         >
           <span className="block">
-            Meu nome é <b className={textBold}>Ryan Lucas</b>, sou formado em <b className={textBold}>Ciência da Computação</b> e tenho <b className={textBold}>background em Java</b>, com foco em desenvolvimento back-end. Atualmente, estou realizando pós-graduação em Java.
+            Sou formado em <b className={textBold}>Ciência da Computação</b>, com <b className={textBold}>background em Java</b> e foco em desenvolvimento back-end.
+            Atualmente, curso <b className={textBold}>pós-graduação em Java</b>.
           </span>
 
           <span className="block">
-            Ao mesmo tempo, <b className={textBold}>meu foco atual de carreira é Front-end / Fullstack</b>, estudando e desenvolvendo projetos com <b className={textBold}>JavaScript, React e Tailwind CSS</b>. Durante a faculdade, cursos e projetos pessoais, tive a oportunidade de aplicar esses conhecimentos na prática, construindo algumas aplicações.
+            Venho direcionando meu foco para <b className={textBold}>Front-end e Fullstack</b>, desenvolvendo projetos com
+            <b className={textBold}> JavaScript, React e Tailwind CSS</b>.
           </span>
 
           <span className="block">
