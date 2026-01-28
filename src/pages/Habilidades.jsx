@@ -58,7 +58,7 @@ const softSkills = [
   "Resolução de problemas",
   "Proatividade",
   "Criatividade",
-  "Proatividade",
+  "Responsabilidade",
 ];
 
 export default function Habilidades() {
