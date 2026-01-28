@@ -8,6 +8,7 @@ import Home from "./pages/Home";
 import Sobre from "./pages/Sobre";
 import Habilidades from "./pages/Habilidades";
 import Projetos from "./pages/Projetos";
+import Contato from "./pages/Contato";
 
 import GlobalStyles from "./styles/GlobalStyles";
 
@@ -28,6 +29,7 @@ export default function App() {
       <Sobre />
       <Habilidades />
       <Projetos />
+      <Contato />
       <GlobalStyles />
     </ThemeProvider>
   );
